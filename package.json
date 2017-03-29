@@ -1,20 +1,24 @@
 {
-  "name": "fingerslug",
-  "version": "1.0.0",
-  "description": "Fingerslug is a tool to generate a slugged and fingerprinted filename based on an input.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Filename",
-    "Slug",
-    "Fingerprint"
-  ],
-  "author": "Arun Sood",
-  "license": "MIT",
-  "dependencies": {
-    "node-uuid": "^1.4.8",
-    "slug": "^0.9.1"
-  }
+    "name": "fingerslug",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arsood/fingerslug.git"
+    },
+    "description": "Fingerslug is a tool to generate a slugged and fingerprinted filename based on an input.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Filename",
+        "Slug",
+        "Fingerprint"
+    ],
+    "author": "Arun Sood",
+    "license": "MIT",
+    "dependencies": {
+        "node-uuid": "^1.4.8",
+        "slug": "^0.9.1"
+    }
 }
